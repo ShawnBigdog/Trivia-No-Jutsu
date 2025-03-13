@@ -14,6 +14,13 @@ body {
   /* margin: 0; */
   grid-template: repeat(6, auto)/repeat(6, auto); /* 6 columns & 6 rows*/
   gap: 5px; /* gap between tiles */
+  grid-template-areas: "title" "content";
+}
+.header {
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 10%;
+
 }
 
 .tile, .categorytile {
@@ -77,4 +84,11 @@ body {
   width: 50px; /* Optional: Adjust image size */
   height: auto; /* Optional: Maintain the image's aspect ratio */
 }
+.anchor { 
+  padding-top: 90px; }
 
+.header{
+
+  text-align:center;
+  font-size:50px;
+}
