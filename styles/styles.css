@@ -92,3 +92,9 @@ body {
   text-align:center;
   font-size:50px;
 }
+.tile-back{
+  
+    display: flex;
+    flex-direction: column;
+  
+}
