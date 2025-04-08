@@ -7,7 +7,7 @@ function flipTile(tile) {
         : "rotateY(180deg)";
   }
   function func1(event) {
-    alert("input");
+    
     if (document.getElementById("check").checked) {
       event.stopPropagation();
     }
