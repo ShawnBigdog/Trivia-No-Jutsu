@@ -15,6 +15,7 @@ body {
   grid-template: repeat(6, auto)/repeat(6, auto); /* 6 columns & 6 rows*/
   gap: 5px; /* gap between tiles */
   grid-template-areas: "title" "content";
+  cursor: pointer;
 }
 .header {
   justify-content: center;
