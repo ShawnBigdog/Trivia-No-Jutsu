@@ -99,3 +99,6 @@ body {
     flex-direction: column;
   
 }
+/*.tile.flipped {
+  transform: rotateY('180deg');
+}*/
