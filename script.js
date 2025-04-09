@@ -12,3 +12,12 @@ function flipTile(tile) {
       event.stopPropagation();
     }
   }
+  const tile = document.querySelector('.tile');
+  let flipped = false;
+
+  tile.addEventListener('click',()=>{
+    if(!flipped){
+      tile.classList.add('flipped');
+      flipped = true;
+    }
+  });
