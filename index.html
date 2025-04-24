@@ -25,18 +25,20 @@
       <div class="categorytile">Anime Lore </div>
       <div class="categorytile">Mangaka</div>
     
-        <div class="tile" onclick="flipTile(this); func1(event);">
-            <div class="tile-inner">
-                <div class="tile-front">200</div>
-                <div class="tile-back">What is the name of Ichigo Kurosaki's mother?
-                    <div>
-                        <label for="answer"></label>
-                        <input id="answer" name="answer" type="text">
-                        <input type="submit" value="submit" onclick="answer();">
-                      </div>
-                </div>
+        <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="inner-card">
+            <div class="card-face card-front">
+                $100
+            </div>
+            <div class="card-face card-back">
+                <div>What is the name of Ichigo Kurosaki's mother?</div>
+                <input type="text" placeholder="Your answer here..." onclick="event.stopPropagation()" />
+                <button onclick="event.stopPropagation(); alert('Answer submitted!')">Submit</button>
+            </div>
             </div>
         </div>
+
+      
         <div class="tile" onclick="flipTile(this) ; func1(event);">
             <div class="tile-inner">
                 <div class="tile-front">200</div>
