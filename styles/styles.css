@@ -100,7 +100,7 @@ body {
   align-items: center;
   width: 200px;
   height: 200px;
-  background-color: #3498db;
+  background: #0b5ed7;
   color: white;
   font-size: 24px;
   font-weight: bold;
@@ -138,11 +138,11 @@ body {
   border-radius: 5px;
 }
 .tile-front {
-  background-color: #3498db;
+  background: #0b5ed7;
   color: white;
 }
 .tile-back {
-  background-color: #78c8ed;
+  background: #0b5ed7;
   color: white;
   text-align: center;
   vertical-align: middle;
