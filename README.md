@@ -4,10 +4,10 @@ I made this website to test my friends about anime.
 I also made this website to show my knowledge about anime.
 Another reason I made this website was to have fun and think about questions.
 ## What did I learn during this project?
--I learned about  propagation
--I learned about flexbox
--I learned about buttons
--I learned about grids as well.
+- I learned about  propagation
+- I learned about flexbox
+- I learned about buttons
+- I learned about grids as well.
 ## Something I wish I knew
 Something I wish I knew was how to create a grid.
 I also wish I knew how to rotate grid tiles.
