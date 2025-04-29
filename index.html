@@ -39,49 +39,57 @@
         </div>
 
       
-        <div class="tile" onclick="flipTile(this) ; func1(event);">
-            <div class="tile-inner">
-                <div class="tile-front">200</div>
-                <div class="tile-back">What villain does naruto encounter during the land of waves arc? <label for="answer"></label>
-                    <input id="answer" name="answer" type="text">
-                    <input type="submit" value="submit" onclick="answer()">
-                    </div>
+        <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="inner-card">
+            <div class="card-face card-front">
+                $200
+            </div>
+            <div class="card-face card-back">
+                <div>What villian does Naruto encounter during the Land Of Waves</div>
+                <input type="text" placeholder="Your answer here..." onclick="event.stopPropagation()" />
+                <button onclick="event.stopPropagation(); alert('Answer submitted!')">Submit</button>
+            </div>
             </div>
         </div>
-        <div class="tile" onclick="flipTile(this) ; func1(event);">
-            <div class="tile-inner">
-                <div class="tile-front">200</div>
-                <div class="tile-back">In Hunter X Hunter,what contains the properties of rubber and gum?<label for="answer"></label>
-                    <input id="answer" name="answer" type="text">
-                    <input type="submit" value="submit" onclick="answer()">
-                    </div>
+
+        <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="inner-card">
+            <div class="card-face card-front">
+                $200
             </div>
-        </div>    <div class="tile" onclick="flipTile(this) ; func1(event);">
-            <div class="tile-inner">
-                <div class="tile-front">200</div>
-                <div class="tile-back">In DBZ Who says "You Hate the Fact That You're Too Powerless to Stop me."?<label for="answer"></label>
-                    <input id="answer" name="answer" type="text">
-                    <input type="submit" value="submit" onclick="answer()">
-                    </div>
+            <div class="card-face card-back">
+                <div>In Hunter x Hunter what contains the properties of rubber and gum?</div>
+                <input type="text" placeholder="Your answer here..." onclick="event.stopPropagation()" />
+                <button onclick="event.stopPropagation(); alert('Answer submitted!')">Submit</button>
             </div>
-        </div>    
-        <div class="tile" onclick="flipTile(this) ; func1(event);">
-            <div class="tile-inner">
-                <div class="tile-front">200</div>
-                <div class="tile-back">What is the name of the village Naruto comes from?<label for="answer"></label>
-                    <input id="answer" name="answer" type="text">
-                    <input type="submit" value="submit" onclick="answer()">
-                    </div>
             </div>
-        </div>    
-        <div class="tile" onclick="flipTile(this) ; func1(event);">
-            <div class="tile-inner">
-                <div class="tile-front">200</div>
-                <div class="tile-back"> Who Created Bleach?<label for="answer"></label>
-                    <input id="answer" name="answer" type="text">
-                    <input type="submit" value="submit" onclick="answer()">
-                    </div>
+        </div>
+   
+        <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="inner-card">
+            <div class="card-face card-front">
+                $200
             </div>
+            <div class="card-face card-back">
+                <div>In DBZ who says "You hate the fact your to powerless to stop me"?</div>
+                <input type="text" placeholder="Your answer here..." onclick="event.stopPropagation()" />
+                <button onclick="event.stopPropagation(); alert('Answer submitted!')">Submit</button>
+            </div>
+            </div>
+        </div>
+    
+        <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="inner-card">
+            <div class="card-face card-front">
+                $200
+            </div>
+            <div class="card-face card-back">
+                <div>Who created Bleach?v </div>
+                <input type="text" placeholder="Your answer here..." onclick="event.stopPropagation()" />
+                <button onclick="event.stopPropagation(); alert('Answer submitted!')">Submit</button>
+            </div>
+            </div>
+        </div>
         </div>
         <div class="tile" onclick="flipTile(this) ; func1(event);">
             <div class="tile-inner">
