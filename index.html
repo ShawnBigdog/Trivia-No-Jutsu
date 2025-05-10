@@ -102,16 +102,18 @@
             </div>
             </div>
         </div> 
-        <div class="tile" onclick="flipTile(this) ; func1(event);">
-            <div class="tile-inner">
-                <div class="tile-front">400</div>
-                <div class="tile-back">  What name does Light Yagami use to conceal his identity?<label for="answer"></label>
-                    <input id="answer" name="answer" type="text">
-                    <input type="submit" value="submit" onclick="answer()">
-                    
-                </div>
+        <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="inner-card">
+            <div class="card-face card-front">
+                $200
             </div>
-        </div>
+            <div class="card-face card-back">
+                <div>What name does Light Yagami use to conceal his identity?</div>
+                <input type="text" placeholder="Your answer here..." onclick="event.stopPropagation()" />
+                <button onclick="event.stopPropagation(); alert('Answer submitted!')">Submit</button>
+            </div>
+            </div>
+        </div> 
         <div class="tile" onclick="flipTile(this) ; func1(event);">
             <div class="tile-inner">
                 <div class="tile-front">400</div>
